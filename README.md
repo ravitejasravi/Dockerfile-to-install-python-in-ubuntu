@@ -23,8 +23,8 @@ Step 2: Copy paste the dockerfile code.
 
 step 3: Build the dockerfile as image using below command.
 
-          docker build -t images_name .
+          docker build -t image_name .
           
 step 4: Run the images in a container using below command.
 
-          docker run -d --name conatiner_name images_name
+          docker run -d --name conatiner_name image_name
