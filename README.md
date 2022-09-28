@@ -15,16 +15,16 @@ Step 3: Write a simple python program.
         
          print("Hello")
          
-Step 1: Create dockerfile using following command
+Step 4: Create dockerfile using following command
   
         vi Dockerfile  #make sure D should be capital.
         
-Step 2: Copy paste the dockerfile code.
+Step 5: Copy paste the dockerfile code.
 
-step 3: Build the dockerfile as image using below command.
+step 6: Build the dockerfile as image using below command.
 
           docker build -t image_name .
           
-step 4: Run the images in a container using below command.
+step 7: Run the images in a container using below command.
 
           docker run -d --name conatiner_name image_name
